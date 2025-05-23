@@ -11,7 +11,7 @@ services:
       - /app/node_modules  
     environment:
       - NODE_ENV=development
-    scale: 3
+    replicas: 3
   cache:
     image: redis:alpine
     ports:
