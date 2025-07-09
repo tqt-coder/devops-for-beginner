@@ -94,7 +94,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 430950558682.dkr.ecr.ap-southeast-1.amazonaws.com/devops-lab13-backend:latest
+        image: 909927813182.dkr.ecr.ap-southeast-1.amazonaws.com/devops-lab13-backend:latest
         resources:
           requests:
             memory: "256Mi"
@@ -131,7 +131,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 430950558682.dkr.ecr.ap-southeast-1.amazonaws.com/devops-lab13-frontend:latest
+        image: 909927813182.dkr.ecr.ap-southeast-1.amazonaws.com/devops-lab13-frontend:latest
         resources:
           requests:
             memory: "256Mi"
